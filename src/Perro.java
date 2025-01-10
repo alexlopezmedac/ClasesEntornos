@@ -15,4 +15,8 @@ public class Perro {
     public void ladrar() {
         System.out.println(raza + ":" + ladrido);
     }
+
+    public String toString() {
+        return "Perro de raza " + raza + " y ladrido " + ladrido;
+    }
 }

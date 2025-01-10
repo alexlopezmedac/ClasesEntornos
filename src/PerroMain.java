@@ -9,5 +9,8 @@ public class PerroMain {
 
         perro1.ladrar();
         perro2.ladrar();
+
+        System.out.println(perro1);
+
     }
 }
