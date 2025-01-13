@@ -2,6 +2,9 @@
  * Esta clase representa la informacion para almacenar perros.
  */
 public class Perro {
+    /**
+     * Este atributo representa la raza de nuestro PERRO.
+     */
     public String raza;
     public String ladrido;
 

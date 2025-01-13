@@ -16,6 +16,8 @@ public class App {
                 "Mercedes");
 
         System.out.println(coche1);
+        System.out.println(coche2);
+        System.out.println(coche3);
 
         // coche1 = null;
         // System.out.println(coche1);
