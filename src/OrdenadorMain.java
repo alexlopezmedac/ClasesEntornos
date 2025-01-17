@@ -1,3 +1,5 @@
+import javafx.geometry.Pos;
+
 public class OrdenadorMain {
     public static void main(String[] args) {
         Ordenador pc1 = new Ordenador(
@@ -16,6 +18,13 @@ public class OrdenadorMain {
 
         System.out.println("El descuento es:" + Ordenador.descuento);
         System.out.println("El descuento calculado es:" + Ordenador.calcularDescuento());
+
+        DiaSemana ds = DiaSemana.LUNES;
+        System.out.println(ds);
+        System.out.println(ds.getNumeroDia());
+
+        Posicion pos = Posicion.DELANTERO;
+        System.out.println(pos);
 
     }
 }
