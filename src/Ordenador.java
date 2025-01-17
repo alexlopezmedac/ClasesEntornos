@@ -1,8 +1,10 @@
 public class Ordenador {
+    private String nombre;
     private int brillo;
     private int volumen;
 
-    public Ordenador(int brillo, int volumen) {
+    public Ordenador(String nombre, int brillo, int volumen) {
+        this.nombre = nombre;
         this.brillo = brillo;
         this.volumen = volumen;
     }
@@ -12,7 +14,11 @@ public class Ordenador {
     }
 
     public void setBrillo(int brillo) {
-        this.brillo = brillo;
+        if (brillo < 0 || brillo > 100) {
+            return;
+        } else {
+            this.brillo = brillo;
+        }
     }
 
     public int getVolumen() {
@@ -21,6 +27,14 @@ public class Ordenador {
 
     public void setVolumen(int volumen) {
         this.volumen = volumen;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
     }
 
     public void cambiarAjustes1() {
@@ -32,4 +46,16 @@ public class Ordenador {
         this.setVolumen(0);
         this.setBrillo(0);
     }
+
+    public void pairWithOtherComputer(Ordenador otro) {
+        System.out.println(this.nombre +
+                " connect with "
+                + otro.nombre + "!");
+    }
+
+    public void setUpConnection(Ordenador pc2) {
+        this.pairWithOtherComputer(pc2);
+        pc2.pairWithOtherComputer(this);
+    }
+
 }
