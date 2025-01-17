@@ -1,4 +1,8 @@
+package com.mains;
 import java.util.ArrayList;
+
+import com.Asignatura;
+import com.Profesor;
 
 public class MainProfeAlumno {
     public static void main(String[] args) {

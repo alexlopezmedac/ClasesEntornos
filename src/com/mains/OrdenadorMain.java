@@ -1,4 +1,7 @@
-import javafx.geometry.Pos;
+package com.mains;
+import com.DiaSemana;
+import com.Posicion;
+import com.pc.Ordenador;
 
 public class OrdenadorMain {
     public static void main(String[] args) {

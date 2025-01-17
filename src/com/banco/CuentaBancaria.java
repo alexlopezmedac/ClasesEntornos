@@ -1,3 +1,5 @@
+package com.banco;
+
 /**
  * Clase que representa una cuenta.
  */

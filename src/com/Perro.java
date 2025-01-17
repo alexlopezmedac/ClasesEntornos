@@ -1,3 +1,4 @@
+package com;
 /**
  * Esta clase representa la informacion para almacenar perros.
  * 

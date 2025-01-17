@@ -1,3 +1,4 @@
+package com.pc;
 public class Ordenador {
     private String nombre;
     private int brillo;

@@ -1,3 +1,4 @@
+package com.coche;
 public class Coche {
 
     public String color;

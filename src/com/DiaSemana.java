@@ -1,3 +1,4 @@
+package com;
 public enum DiaSemana {
     LUNES(1),
     MARTES(2),

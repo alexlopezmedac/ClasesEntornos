@@ -1,3 +1,7 @@
+package com.mains;
+
+import com.Perro;
+
 public class PerroMain {
     public static void main(String[] args) {
 
