@@ -14,5 +14,8 @@ public class OrdenadorMain {
 
         pc1.setUpConnection(pc2);
 
+        System.out.println("El descuento es:" + Ordenador.descuento);
+        System.out.println("El descuento calculado es:" + Ordenador.calcularDescuento());
+
     }
 }

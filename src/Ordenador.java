@@ -2,6 +2,7 @@ public class Ordenador {
     private String nombre;
     private int brillo;
     private int volumen;
+    public static double descuento = 80;
 
     public Ordenador(String nombre, int brillo, int volumen) {
         this.nombre = nombre;
@@ -56,6 +57,10 @@ public class Ordenador {
     public void setUpConnection(Ordenador pc2) {
         this.pairWithOtherComputer(pc2);
         pc2.pairWithOtherComputer(this);
+    }
+
+    public static double calcularDescuento() {
+        return descuento + 20.00;
     }
 
 }
