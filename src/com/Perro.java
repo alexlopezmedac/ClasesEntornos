@@ -4,7 +4,7 @@ package com;
  * 
  * @author Alejandro Lopez Sanz
  */
-public class Perro {
+public class Perro extends Animal {
     /**
      * Este atributo representa la raza de nuestro PERRO.
      */
@@ -50,7 +50,8 @@ public class Perro {
     /**
      * Metodo que imprime el ladrido del perro.
      */
-    public void ladrar() {
+    @Override
+    public void hacerSonido() {
         String mensaje = "ESTO ES UN MENSAJE";
         String raza = "ESTO ES UNA PRUEBA";
         System.out.println(this.raza + raza + " " + mensaje);
